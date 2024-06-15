@@ -7,51 +7,62 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Wesley Ferreira</title>
     <meta name="description"
         content="WDD 131 - Dynamic Web Fundamentals. Wesley Ferreira. Keyword summary of page content">
-    <meta name="author" content="Your Name">
+    <meta name="author" content="Wesley Ferreira">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="base.css">
-    <script src="getdates.js" defer></script>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>WDD 131 - Dynamic Web Fundamentals - Wesley Ferreira</h1>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>Wesley Ferreira</span></h1>
         <nav>
             <ul>
                 <li><a href="https://www.linkedin.com/in/wesley-data" target="_blank">LinkedIn</a></li>
                 <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
                 <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=por#study_summary1"
-                        target="_blank">2 Nephi 2: 25</a></li>
+                        target="_blank">Scripture</a></li>
                 <li><a href="#" target="_blank">Final Project</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main-grid">
         <section class="card">
             <h2>About Me</h2>
-            <img src="images/Me.jpeg" alt="Description of image 1">
-            <p>Links for every Dev.</p>
+            <div class="content">
+                <p>My name is Wesley and I go by Wes. I was born in São Paulo, Brazil. I'm a data analyst at a national
+                    car rental company. I really enjoy staying up to date on the world of gaming and technology. I'm
+                    single and don't have any children. I've been a member of The Church of Jesus Christ of Latter-day
+                    Saints since May 2017 (7 years) and I served a mission in Brazil Belém Mission.</p>
+                <img src="images/Me.jpeg" alt="Wesley's Photo">
+            </div>
+            <h3>São Paulo, Brazil</h3>
+            <div class="content">
+                <img src="images/Sao Paulo flag.png" alt="SP Flag" class="flag">
+                <p>São Paulo is a Brazilian municipality, capital of the state of the same name and the main financial,
+                    corporate and commercial center in Latin America. It is the most populous city in Brazil, the
+                    American continent, Portuguese-speaking countries and the entire southern hemisphere, and the fifth
+                    most populous in the world, while its metropolitan region, with around 21 million inhabitants, is
+                    the seventh largest urban agglomeration on the planet. São Paulo is the most influential Brazilian
+                    city on the global stage, being, in 2016, the 11th most globalized city on the planet, receiving the
+                    classification of alpha global city, by the Globalization and World Cities Study Group & Network
+                    (GaWC). The city's motto, present in its official coat of arms, is Non ducor, duco, a Latin phrase
+                    that means "I am not led, I lead".</p>
+            </div>
+        </section>
+        <section class="card links">
+            <h2>Must have links for Devs</h2>
             <ul>
-                <li><a href="https://stackoverflow.com" target="_blank">stackoverflow</a></li>
+                <li><a href="https://stackoverflow.com" target="_blank">Stackoverflow</a></li>
                 <li><a href="https://www.churchofjesuschrist.org/?lang=eng" target="_blank">The Church of Jesus
                         Christ</a></li>
                 <li><a href="https://www.remoterocketship.com" target="_blank">Remote Rocketship</a></li>
             </ul>
         </section>
-        <section class="card">
-            <h2>Section Heading 2</h2>
-            <img src="path/to/your/image2.jpg" alt="Description of image 2">
-            <p>Content for the second section. Include at least three resource links.</p>
-            <ul>
-                <li><a href="https://resource4.com" target="_blank">Resource 4</a></li>
-                <li><a href="https://resource5.com" target="_blank">Resource 5</a></li>
-                <li><a href="https://resource6.com" target="_blank">Resource 6</a></li>
-            </ul>
-        </section>
     </main>
     <footer>
-        <p>&copy; <span id="currentyear"></span> Wesley Ferreira. Sao Paulo, Brazil.</p>
-        <p id="lastModified"></p>
+        <p>&copy; <span id="currentyear"></span> Wesley Ferreira. São Paulo, Brazil.</p>
+        <p id="lastModified">Last Modified: </p>
     </footer>
 </body>
 
