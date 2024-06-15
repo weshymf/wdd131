@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    width: 100%;
+    background-color: #2b3e50;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header h1 span {
+    color: #ffd700;
+    /* Custom color for your name */
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* Two columns, wider for main content */
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    background-color: #2b3e50;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card .content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card .content img {
+    max-width: 150px;
+    /* Set a maximum width for the images */
+    height: auto;
+    margin-left: 20px;
+    /* Space between the text and image */
+    border-radius: 5px;
+}
+
+.card .content img.flag {
+    margin-left: 20px;
+    /* Space between the flag image and the text */
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin: 10px 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #2b3e50;
+    transition: color 0.3s;
+}
+
+.links ul li a:hover {
+    color: #ffd700;
+}
+
+footer {
+    width: 100%;
+    background-color: #2b3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer span {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#lastModified {
+    color: #ffd700;
+    /* Custom color for the last modified text */
+}
