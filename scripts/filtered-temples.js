@@ -1,4 +1,3 @@
-// filtered-temples.js
 const temples = [
     {
         templeName: "Aba Nigeria",
@@ -54,14 +53,14 @@ const temples = [
         location: "Hong Kong, China",
         dedicated: "1996, May, 26",
         area: 28489,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/hong-kong-china/400x250/hong-kong-china-temple-1567898-wallpaper.jpg"
+        imageUrl: "https://www.churchofjesuschrist.org/imgs/26e0eb04a0a8e9fc7dddd0c1fabdcb0a46926047/full/640%2C/0/default"
     },
     {
         templeName: "Salt Lake City Utah",
         location: "Salt Lake City, Utah, United States",
         dedicated: "1893, April, 6",
         area: 253015,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-city-temple-1078290-wallpaper.jpg"
+        imageUrl: "https://www.churchofjesuschrist.org/imgs/92c33bcbf9cf85483e008d6871f8ced5f6d7b661/full/1920%2C/0/default"
     }
 ];
 
